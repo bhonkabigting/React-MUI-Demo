@@ -29,11 +29,11 @@ export const MuiMasonry = () => {
 						}}
 					>
 						<Accordion sx={{ minHeight: height }}>
-                            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                <Typography>Accordion {index + 1}</Typography>
-                            </AccordionSummary>
-                            <AccordionDetails>Content</AccordionDetails>
-                        </Accordion>
+							<AccordionSummary expandIcon={<ExpandMoreIcon />}>
+								<Typography>Accordion {index + 1}</Typography>
+							</AccordionSummary>
+							<AccordionDetails>Content</AccordionDetails>
+						</Accordion>
 					</Paper>
 				))}
 			</Masonry>
